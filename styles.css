@@ -1,139 +1,171 @@
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html{
+     font-family: proxima nova, sans-serif;
+ }
+ 
+ body {
+     background-image: url(images/background.png);
+     background-size: cover;
+ }
+ 
+ h1 {
+     font-size: 40px;
+ }
+ 
+ h2 {
+     font-size: 30px;
+ }
+ 
+ h3 {
+     font-size: 26px;
+ }
+
+.bold {
+    font-weight: 600;
 }
 
-html{
-    font-family: proxima nova, sans-serif;
-}
+ nav {
+     width: 100%;
+     height: 68px;
+     background-color: white;
+ }
+ 
+ nav ul {
+     float: left;
+     background-color: white;
+ }
+ 
+ nav ul li {
+     float: left;
+     list-style: none;
+     position: relative;
+     background-color: white;
+ }
+ 
+ nav ul li a {
+     display: block;
+     color: #461364;
+     font-family: sans-serif;
+     font-size: 20px;
+     padding: 22px 14px;
+     text-decoration: none;
+ }
+ 
+ nav ul li ul {
+     display: none;
+     position: absolute;
+     background-color:white;
+     padding: 8px;
+     border-radius: 0px 0px 4px 4px;
+ }
+ 
+ nav ul li:hover ul {
+     display: block;
+ }
+ 
+ nav ul li ul li {
+    width: 250px;
+    border-radius: 4px;
+ }
+ 
+ nav ul li ul li a {
+     padding: 6px 14px;
+ }
+ 
+ nav ul li ul li a:hover {
+    background-color: rgb(199, 164, 181);
+ }
+ 
+ .right {
+     float: right;
+ }
+ 
+ .right img {
+     height:40px;
+     width: 40px;
+     margin: 10px 10px; 
+ }
+ 
+ .presentation {
+     width: 100%;
+     float: left;
+     margin-top: 50px;
+ }
+ 
+ .presentationWrapper {
+     width: 50%;
+     margin: auto;
+     display: block;
+     height: 250px;
+     position: relative;
+ }
+ 
+ .presentationWrapper h1 {
+     font-family:  sans-serif;
+     color: #f8fafc;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 5px;
+ }
+ 
+ .presentationWrapper img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+ }
+ 
+ .profession {
+     width: 80%;
+     margin: auto;
+ }
+ 
+ .profession h2 {
+     font-family: sans-serif;
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+     line-height: 30px;
+ }
+ 
+ .profession p {
+     margin-top: 30px;
+     margin-bottom: 30px;
+     color: rgb(238, 235, 235);
+     font-family: 'Times New Roman', Times, serif;
+     line-height: 40px;
+     font-size: 24px;
+     text-align: justify;
+     font-weight: 400;
+ }
 
-body {
-    background-image: url(images/background.png);
-    background-size: cover;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 26px;
-}
-
-nav {
+ .footer {
     width: 100%;
-    height: 68px;
-    background-color: white;
 }
 
-nav ul {
-    float: left;
-    background-color: white;
-}
-
-nav ul li {
-    float: left;
-    list-style: none;
-    position: relative;
-    background-color: white;
-}
-
-nav ul li a {
-    display: block;
-    color: #461364;
-    font-family: sans-serif;
-    font-size: 20px;
-    padding: 22px 14px;
-    text-decoration: none;
-}
-
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color:white;
-    padding: 8px;
-    border-radius: 0px 0px 4px 4px;
-}
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-   width: 250px;
-   border-radius: 4px;
-}
-
-nav ul li ul li a {
-    padding: 6px 14px;
-}
-
-nav ul li ul li a:hover {
-   background-color: rgb(199, 164, 181);
-}
-
-.right {
-    float: right;
-}
-
-.right img {
-    height:40px;
-    width: 40px;
-    margin: 10px 10px; 
-}
-
-.presentation {
-    width: 100%;
-    float: left;
-    margin-top: 50px;
-}
-
-.presentationWrapper {
-    width: 50%;
-    margin: auto;
-    display: block;
-    height: 250px;
-    position: relative;
-}
-
-.presentationWrapper h1 {
-    font-family:  sans-serif;
-    color: #f8fafc;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.presentationWrapper img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.profession {
+.footerWrapper {
     width: 80%;
     margin: auto;
-}
-
-.profession h2 {
-    font-family: sans-serif;
-    color: white;
+    display: block;
     text-align: center;
-    margin-top: 20px;
-    line-height: 30px;
 }
 
-.profession p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.footerWrapper p{
     color: rgb(238, 235, 235);
     font-family: 'Times New Roman', Times, serif;
-    line-height: 40px;
-    font-size: 24px;
-    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.footerWrapper a {
+    text-decoration: none;
+    color: #461364;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 21px;
 }
 
