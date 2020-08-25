@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@
  }
  
  h1 {
-     font-size: 40px;
+     font-size: 35px;
  }
  
  h2 {
@@ -28,16 +30,28 @@
     font-weight: 600;
 }
 
+
  nav {
      width: 100%;
-     height: 68px;
+     height: 71px;
      background-color: white;
+     align-items: center;
  }
  
  nav ul {
      float: left;
      background-color: white;
+     align-items: center;
  }
+
+ nav ul img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 17px;
+}
  
  nav ul li {
      float: left;
@@ -49,8 +63,8 @@
  nav ul li a {
      display: block;
      color: #461364;
-     font-family: sans-serif;
-     font-size: 20px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
      padding: 22px 14px;
      text-decoration: none;
  }
@@ -85,9 +99,12 @@
  }
  
  .right img {
-     height:40px;
-     width: 40px;
-     margin: 10px 10px; 
+     height: 30px;
+     width: 30px;
+     margin: 10px;
+     margin-top: 18px;
+     margin-bottom: 13px;
+     align-items: center;
  }
  
  .presentation {
@@ -105,8 +122,8 @@
  }
  
  .presentationWrapper h1 {
-     font-family:  sans-serif;
-     color: #f8fafc;
+     font-family: 'Poppins', sans-serif;
+     color:  #5d3f6e;
      text-align: center;
      margin-top: 10px;
      margin-bottom: 5px;
@@ -124,8 +141,8 @@
  }
  
  .profession h2 {
-     font-family: sans-serif;
-     color: white;
+     font-family: 'Poppins', sans-serif;
+     color:  #5d3f6e;
      text-align: center;
      margin-top: 20px;
      line-height: 30px;
@@ -133,15 +150,84 @@
  
  .profession p {
      margin-top: 30px;
-     margin-bottom: 30px;
-     color: rgb(238, 235, 235);
-     font-family: 'Times New Roman', Times, serif;
+     margin-bottom: 60px;
+     color:  #5d3f6e;
+     font-family: 'Comfortaa', cursive;
      line-height: 40px;
      font-size: 24px;
      text-align: justify;
-     font-weight: 400;
+     font-weight: 500;
  }
+ .contact-title {
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
 
+.contact-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 620px;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact-form {
+    margin-top: 25px;
+    transition: all 4s ease-in-out;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+.contact-form input, textarea {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    color: white;
+    font-size:21px;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 25px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form .submit {
+    background: rgb(199, 164, 181);
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form .submit:hover{
+    background-color: thistle;
+    cursor: pointer;
+}
  .footer {
     width: 100%;
 }
@@ -155,7 +241,7 @@
 
 .footerWrapper p{
     color: rgb(238, 235, 235);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     margin-bottom: 50px;
     font-size: 14px;
@@ -163,9 +249,14 @@
 
 .footerWrapper a {
     text-decoration: none;
-    color: #461364;
-    font-family: 'Times New Roman', Times, serif;
+    color:  #582874;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     font-size: 21px;
 }
+
+
+
+
+
 

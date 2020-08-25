@@ -8,14 +8,9 @@
 <body>
 
 <nav>
+    
     <ul>
-        <li><a href="#">Categories</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Personal experiences</a></li>
-            </ul>
-        </li>
+        <a href="homepage.html"><img src="images/home.png" alt="home image" id="home"></a>
         <li><a href="#">Expertise</a>
             <ul>
                 <li><a href="#">Beauty & Wellness</a></li>
@@ -23,6 +18,11 @@
                 <li><a href="#">E-Commerce</a></li>
                 <li><a href="#">FMGC</a></li>
                 <li><a href="#">Automotive</a></li>
+            </ul>
+        <li><a href="#">About me</a>
+            <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Skills</a></li>
             </ul>
         </li>
         <li><a href="#">Contacts</a></li>
@@ -39,7 +39,7 @@
 <div class="presentation">
     <div class="presentationWrapper">
         <img src="images/filipa.jpeg">
-        <h1>Filipa Duarte Marcelino</h1>
+        <h1>FILIPA DUARTE MARCELINO</h1>
     </div>
         <div class="profession">
         <h2>Business Consultant</h2>
@@ -47,6 +47,19 @@
             I will be soon posting contents regarding my services and some usefull business links as well.
         </p>
     </div>
+</div>
+<div class="contact-title">
+    <h2>Leave a message</h2>
+</div>
+
+<div class="contact-form">
+    <form id="contact-form" method="post" action="">
+        <input name="name" type="text"  class="form-control" placeholder="Name" required><br>
+        <input name="Email" type="email"  class="form-control" placeholder="Email" required><br>
+        <input name="number" type="tex"  class="form-control" placeholder="Phone" required><br>
+        <textarea name="message" class="form-control" placeholder="How can I help you?" rows="4" required></textarea><br>
+        <input type="submit" class="form-control submit"  value="SEND">
+    </form>
 </div>
 
 <div class="footer">
