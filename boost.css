@@ -10,8 +10,8 @@
  }
  
  body {
-    background-image: url(images/background.png);
-    background-size: cover;
+     background-image: url(images/background.png);
+     background-size: cover;
  }
  
  h1 {
@@ -62,14 +62,14 @@
  }
  
  nav ul li a {
-     display: block;
-     color: #461364;
-     font-family: 'Poppins', sans-serif;
-     font-size: 18px;
-     padding: 22px 14px;
-     text-decoration: none;
-     z-index: q;
- }
+    display: block;
+    color: #461364;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 22px 14px;
+    text-decoration: none;
+    z-index: q;
+}
  
  nav ul li ul {
      display: none;
@@ -101,73 +101,42 @@
  }
  
  .right img {
-     height: 30px;
-     width: 30px;
+     height: 35px;
+     width: 35px;
      margin: 10px;
      margin-top: 18px;
      margin-bottom: 13px;
      align-items: center;
  }
 
- .text {
-    width: 100%;
-    margin-top: 50px;
-    height: 400px;
-    background-color: lightgray;
-    opacity: 60%;
- }
-
  .textWrapper {
-    width: 80%;
-    margin: auto;
-    display: block;
-    height: 250px;
-    position: relative;
-    align-items: center;
+  width: 100%;
+  float: left;
+  margin-top: 50px;
  }
 
- .textWrapper h2 {
-    font-family: 'Poppins', sans-serif;
-    color:  #210133;
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 5px;
- }
+ .text {
+  width: 80%;
+  margin: auto;
+  background-color: lightgray;
+  opacity: 60%;
+}
 
- .description {
-     width: 650px;
-     align-items: center;
-     float: left;
- }
+.text p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:  #6b199b;
+  font-family: 'Comfortaa', cursive;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: justify;
+  font-weight: 500;
+}
 
- .description p {
-    margin-top: 3;
-    margin-bottom: 60px;
-    color:  #210133;
-    font-family: 'Comfortaa', cursive;
-    line-height: 40px;
-    font-size: 18px;
-    text-align: left;
-    font-weight: 500;
- }
-
- .skills {
-     float: right;
-     width:400px;
- }
-
- .skills ul li{
-    color: #210133;
-    font-family: 'Comfortaa', cursive;
-    line-height: 40px;
-    font-size: 18px;
-    font-weight: 500;
-    text-align-last: left;
- }
- 
- .footer {
+.footer {
     width: 100%;
-    margin-top: 25px;
 }
 
 .footerWrapper {
@@ -178,7 +147,7 @@
 }
 
 .footerWrapper p{
-    color: #582874;
+    color: rgb(238, 235, 235);
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     margin-bottom: 50px;

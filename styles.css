@@ -99,8 +99,8 @@
  }
  
  .right img {
-     height: 30px;
-     width: 30px;
+     height: 35px;
+     width: 35px;
      margin: 10px;
      margin-top: 18px;
      margin-bottom: 13px;
@@ -228,7 +228,8 @@ form .submit:hover{
     background-color: thistle;
     cursor: pointer;
 }
- .footer {
+
+.footer {
     width: 100%;
 }
 
