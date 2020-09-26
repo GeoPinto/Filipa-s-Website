@@ -12,6 +12,7 @@
  body {
      background-image: url(images/background.png);
      background-size: cover;
+     width: auto;
  }
  
  h1 {
@@ -65,8 +66,8 @@
     display: block;
     color: #461364;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    padding: 22px 14px;
+    font-size: 22px;
+    padding: 18px 14px;
     text-decoration: none;
     z-index: q;
 }
@@ -103,7 +104,7 @@
  .right img {
      height: 35px;
      width: 35px;
-     margin: 10px;
+     margin: 12px;
      margin-top: 18px;
      margin-bottom: 13px;
      align-items: center;
@@ -127,12 +128,84 @@
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  color:  #6b199b;
+  color:  #210133;
   font-family: 'Comfortaa', cursive;
   line-height: 40px;
   font-size: 24px;
   text-align: justify;
   font-weight: 500;
+}
+
+.contact-title {
+    margin: 60px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 620px;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact-form {
+    margin-top: 25px;
+    transition: all 4s ease-in-out;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+  
+.contact-form input, textarea {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    color: #210133;
+    font-size:22px;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 25px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form .submit {
+    background: rgb(199, 164, 181);
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form .submit:hover{
+    background-color: thistle;
+    cursor: pointer;
 }
 
 .footer {

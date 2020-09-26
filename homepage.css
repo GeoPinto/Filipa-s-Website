@@ -12,6 +12,7 @@
  body {
      background-image: url(images/background.png);
      background-size: cover;
+     width: auto;
  }
  
  h1 {
@@ -64,8 +65,8 @@
      display: block;
      color: #461364;
      font-family: 'Poppins', sans-serif;
-     font-size: 18px;
-     padding: 22px 14px;
+     font-size: 22px;
+     padding: 18px 14px;
      text-decoration: none;
  }
  
@@ -101,7 +102,7 @@
  .right img {
      height: 35px;
      width: 35px;
-     margin: 10px;
+     margin: 12px;
      margin-top: 18px;
      margin-bottom: 13px;
      align-items: center;
@@ -158,6 +159,7 @@
      text-align: justify;
      font-weight: 500;
  }
+
  .contact-title {
     margin-top: 100px;
     color: white;
@@ -186,7 +188,7 @@ form {
 ::placeholder {
     color: white;
     opacity: 1;
-    font-size: 18px;
+    font-size: 21px;
     font-family: sans-serif;
   }
   
@@ -198,8 +200,8 @@ form {
     border-bottom-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    color: white;
-    font-size:21px;
+    color:  #210133;
+    font-size:22px;
     font-family: 'Comfortaa', cursive;
     margin-bottom: 16px;
 }
